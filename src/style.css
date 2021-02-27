@@ -1,5 +1,5 @@
 .card {
-  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
 }
 
 .temp {
@@ -8,7 +8,7 @@
 }
 
 .snowflake1 {
-  color: #03cafc;
+  color: #4257f5;
   text-align: center;
   font-size: 200px;
   line-height: none;
