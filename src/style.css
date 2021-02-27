@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+
 .card {
   background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
 }
@@ -9,6 +11,7 @@
 
 .snowflake1 {
   color: #4257f5;
+  box-shadow: #fff1eb;
   text-align: center;
   font-size: 200px;
   line-height: none;
