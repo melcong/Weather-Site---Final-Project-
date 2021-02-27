@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Stick&display=swap");
 
 .card {
   background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
@@ -10,7 +10,7 @@
 }
 
 .snowflake1 {
-  color: #4257f5;
+  color: #1527b0;
   box-shadow: #fff1eb;
   text-align: center;
   font-size: 200px;
@@ -65,31 +65,31 @@
 }
 
 .snowflake {
-  color: #03cafc;
+  color: #1527b0;
   font-size: 30px;
   line-height: 40px;
 }
 
 .cloud {
-  color: #03cafc;
+  color: #1527b0;
   font-size: 30px;
   line-height: 40px;
 }
 
 .wind {
-  color: #03cafc;
+  color: #1527b0;
   font-size: 30px;
   line-height: 40px;
 }
 
 .sun {
-  color: #03cafc;
+  color: #1527b0;
   font-size: 30px;
   line-height: 40px;
 }
 
 .cloud-sun {
-  color: #03cafc;
+  color: #1527b0;
   font-size: 30px;
   line-height: 40px;
 }
