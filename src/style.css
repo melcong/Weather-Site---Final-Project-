@@ -17,10 +17,10 @@
 
 .snowflake1 {
   color: #1527b0;
-  box-shadow: #fff1eb;
   text-align: left;
   font-size: 140px;
   line-height: none;
+  padding-left: 18px;
 }
 
 .degree {
