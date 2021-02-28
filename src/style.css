@@ -15,6 +15,11 @@
   padding-left: 18px;
 }
 
+.variables {
+  font-size: 18px;
+  text-align: justify;
+}
+
 .snowflake1 {
   color: #1527b0;
   text-align: left;
