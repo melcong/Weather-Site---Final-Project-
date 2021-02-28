@@ -64,24 +64,6 @@ searchButton.addEventListener("click", getCurrentLocation);
 
 searchCity("Toronto");
 
-function convertToFahrenheit(event) {
-  event.preventDefault();
-  let temperatureElement = document.querySelector("#temperature");
-  temperatureElement.innerHTML = -6;
-}
-
-function convertCelsius(event) {
-  event.preventDefault();
-  let temperatureElement = document.querySelector("#temperature");
-  temperatureElement.innerHTML = 21;
-}
-
-let fahrenheitLink = document.querySelector("#fahrenheit-link");
-fahrenheitLink.addEventListener("click", convertToFahrenheit);
-
-let celsiusLink = document.querySelector("#celsius-link");
-celsiusLink.addEventListener("click", convertCelsius);
-
 function displayFahrenheitTemperature(event) {
   event.preventDefault();
   let fahrenheitTemperature = (Celciustemperature * 9)/5 +32;
