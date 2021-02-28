@@ -9,6 +9,12 @@
   margin: 20px;
 }
 
+.description {
+  font-size: 45px;
+  text-align: left;
+  padding-left: 18px;
+}
+
 .snowflake1 {
   color: #1527b0;
   box-shadow: #fff1eb;
