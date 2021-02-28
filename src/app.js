@@ -62,10 +62,6 @@ searchForm.addEventListener("submit", handleSubmit);
 let searchButton = document.querySelector("#searchButton");
 searchButton.addEventListener("click", getCurrentLocation);
 
-searchCity("Toronto");
-
-
-
 function displayFahrenheitTemperature(event) {
   event.preventDefault();
   let fahrenheitTemperature = (Celciustemperature * 9)/5 +32;
@@ -83,3 +79,5 @@ function displayCelciusTemperature (event) {
 
 let celciustemp = document.querySelector("#celcius-temp");
 celciustemp.addEventListener("click", displayCelciusTemperature)
+
+searchCity("Toronto");
