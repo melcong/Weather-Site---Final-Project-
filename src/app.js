@@ -81,3 +81,21 @@ fahrenheitLink.addEventListener("click", convertToFahrenheit);
 
 let celsiusLink = document.querySelector("#celsius-link");
 celsiusLink.addEventListener("click", convertCelsius);
+
+function displayFahrenheitTemperature(event) {
+  event.preventDefault();
+  let fahrenheitTemperature = (Celciustemperature * 9)/5 +32;
+  document.querySelector("#temperature").innerHTML = Math.round(fahrenheitTemperature) 
+}
+
+let fahrenheittemp= document.querySelector("#fahrenheit-temp");
+fahrenheittemp.addEventListener("click", displayFahrenheitTemperature)
+
+function displayCelciusTemperature (event) {
+  event.preventDefault();
+  let CelciusElement = document.querySelector("#temperature")
+  CelciusElement.innerHTML = Math.round(Celciustemperature)
+}
+
+let celciustemp = document.querySelector("#celcius-temp");
+celciustemp.addEventListener("click", displayCelciusTemperature)
