@@ -64,6 +64,8 @@ searchButton.addEventListener("click", getCurrentLocation);
 
 searchCity("Toronto");
 
+let Celciustemperature = null;
+
 function displayFahrenheitTemperature(event) {
   event.preventDefault();
   let fahrenheitTemperature = (Celciustemperature * 9)/5 +32;
